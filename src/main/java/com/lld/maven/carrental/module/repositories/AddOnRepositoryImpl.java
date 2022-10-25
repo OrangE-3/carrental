@@ -1,11 +1,12 @@
 package com.lld.maven.carrental.module.repositories;
 
 import com.lld.maven.carrental.module.models.AddOn;
+import com.lld.maven.carrental.module.repositories.interfaces.AddOnRepository;
 
 import java.util.List;
 import java.util.Map;
 
-public class AddOnRepositoryImpl implements AddOnRepository{
+public class AddOnRepositoryImpl implements AddOnRepository {
     Map<String, AddOn>  addOnMap;
     @Override
     public void add(AddOn addOn) {

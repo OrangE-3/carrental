@@ -1,4 +1,4 @@
-package com.lld.maven.carrental.module.repositories;
+package com.lld.maven.carrental.module.repositories.interfaces;
 
 import com.lld.maven.carrental.module.models.accounts.Account;
 

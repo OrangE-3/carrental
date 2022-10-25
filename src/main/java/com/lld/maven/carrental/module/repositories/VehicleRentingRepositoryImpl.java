@@ -2,11 +2,12 @@ package com.lld.maven.carrental.module.repositories;
 
 import com.lld.maven.carrental.module.models.RentalArea;
 import com.lld.maven.carrental.module.models.Vehicle;
+import com.lld.maven.carrental.module.repositories.interfaces.VehicleRentingRepository;
 
 import java.util.List;
 import java.util.Map;
 
-public class RentalAreaRepositoryImpl implements RentalAreaRepository{
+public class VehicleRentingRepositoryImpl implements VehicleRentingRepository {
     Map<String, RentalArea> rentalAreaMap;
     Map<String, Vehicle> vehicleMap;
     @Override

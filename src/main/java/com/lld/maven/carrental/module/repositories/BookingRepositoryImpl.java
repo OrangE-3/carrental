@@ -3,14 +3,14 @@ package com.lld.maven.carrental.module.repositories;
 import com.lld.maven.carrental.module.models.Booking;
 import com.lld.maven.carrental.module.models.PaymentInvoice;
 import com.lld.maven.carrental.module.models.Trip;
+import com.lld.maven.carrental.module.repositories.interfaces.BookingRepository;
 
-import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-public class BookingRepositoryImpl implements  BookingRepository{
+public class BookingRepositoryImpl implements BookingRepository {
     Map<String, Booking> bookingMap;
 
     @Override
